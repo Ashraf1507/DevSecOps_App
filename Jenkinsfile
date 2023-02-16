@@ -17,7 +17,7 @@ pipeline {
 
         stage('Unit Tests') {
           steps {
-            sh 'cd DevSecOps_App && npm i && npm run test:unit '
+            sh 'npm i && npm run test:unit '
           }
         }
 
